@@ -1,0 +1,381 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: rgb(255, 193, 98);
+}
+
+/* Upper navigation bar */
+#brand-name {
+    animation: brandy 10s infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes brandy {
+    0% {
+        color: rgb(0, 255, 21);
+    }
+
+    20% {
+        color: rgb(230, 255, 179);
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 172, 172);
+    }
+
+    100% {
+        color: rgb(255, 0, 13);
+    }
+
+}
+
+/* Upper navigation bar end */
+/* Lower navigation */
+#btn-sign-in {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#btn-sign-in button {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 0px solid;
+}
+
+.navigation-box-2 {
+    background-color: rgb(255, 255, 255);
+}
+
+/* lower navigation bar ends here */
+/* main part starts here */
+
+
+#upper-footer {
+    background-color: black;
+    color: white;
+}
+
+#lower-footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-headline h5 {
+    margin-left: 45px;
+}
+
+.credit-images span {
+    width: 35px;
+    margin-left: 25px;
+}
+
+.second-footer-headline {
+    text-align: right;
+    margin-right: 90px;
+}
+
+.connect-images {
+    text-align: right;
+}
+
+.connect-images span {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+/* footer part ends here */
+/* All hover effects */
+#tabs-upper-navbar {
+    transition: 0.5s;
+}
+
+#tabs-upper-navbar:hover {
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+/* social media on form */
+.social-media i {
+    color: black;
+    transition: 0.5s;
+}
+
+.social-media i:hover {
+    color: black;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+/* sign in button on top */
+#btn-sign-in button {
+    background-color: rgb(220, 20, 20);
+    color: white;
+    transition: 0.5s;
+}
+
+#btn-sign-in button:hover {
+    background-color: rgb(0, 255, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+/* dashboard content */
+#pathline {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* new css */
+.bread {
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.bread a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.bread li {
+    margin-left: 20px;
+}
+
+#pathline h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* navigation bar */
+#sideNavigation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.sideNavigation {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    height: 1700px;
+}
+
+.iconAndName {
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.iconAndName h5 {
+    width: 85%;
+    padding-left: 10px;
+}
+
+.iconAndName span {
+    width: 15%;
+
+}
+
+.iconAndName span i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#list-group {
+    margin-bottom: 30px;
+}
+
+.list-group li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.list-group li a:hover {
+    font-weight: 600;
+    color: rgb(6, 239, 6);
+    transition: 0.2s;
+}
+
+#btn-account-design {
+    width: 49%;
+    border: 0px solid;
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#btn-account-design:hover {
+    background-color: rgb(10, 244, 10);
+    transition: 0.2s;
+}
+
+/* data block */
+#dataBlock {
+    margin-top: 50px;
+}
+
+#item-status {
+    background-color: rgba(255, 255, 255, 0.838);
+    height: 39px;
+    border-radius: 10px;
+}
+
+#item-status p {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#status-block {
+    margin-bottom: 30px;
+}
+
+#full-card {
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* last-icons */
+#last-icons {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.card {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.fullNavigation {
+    height: 1700px;
+    overflow: hidden;
+    width: 80%;
+}
+
+#statementBox {
+    text-align: right;
+}
+
+@media screen and (max-width:767px) {
+    .fullNavigation {
+        height: 65px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #sideNavigation {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    #dataBlock {
+        margin-top: 10px;
+    }
+
+    #statementBox {
+        padding-left: 50px;
+        padding-top: 20px;
+        text-align: right;
+    }
+
+    #priceBox {
+        padding-left: 30px;
+        text-align: right;
+    }
+
+
+
+}
+
+/* new css */
+#product-box {
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.track {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px solid;
+    font-weight: 600;
+    color: white;
+    background-color: coral;
+    transition: 0.2s;
+}
+
+.track:hover {
+    background-color: rgb(17, 237, 17);
+    transition: 0.3s;
+}
+
+.high-star {
+    color: gold;
+    font-size: 25px;
+}
+
+.low-star {
+    color: black;
+    font-size: 25px;
+}
+.deliveryStatement
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.deliveryStatement .row div
+{
+    font-weight: 600;
+}

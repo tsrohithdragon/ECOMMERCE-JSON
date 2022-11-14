@@ -1,0 +1,1624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- my style -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!-- kitcode -->
+    <script src="https://kit.fontawesome.com/4869d621b0.js" crossorigin="anonymous"></script>
+    <title>SWAG OF INDIA</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/891/891462.png">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" id="brand-name" href="index.html">SWAG OF INDIA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="mini-tabs-bars">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="assign7seller.html">Seller Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="lstorage.html">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="wishlist.html">WishList</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="addCart.html">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="track.html">My orders</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#clothing">Clothing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#accessories">Jewellery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#womensFashion">Women</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#battleField">LifeStyle</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="one">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://github.com/SAIROHITHTIRUPATHI/Images/blob/main/fashion-orange.jpg?raw=true"
+                            class="d-block w-100" alt="...">
+                        <!-- form start -->
+
+                        <div class="main-form">
+                            <button class="btn-login">LOGIN</button>
+                            <button class="btn-register">REGISTER</button>
+                            <!-- register start -->
+                            <form id="registerForm" action="#">
+                                <input type="text" name="firstName" id="usernames1" placeholder="First Name" required>
+                                <input type="text" name="lastName" id="usernames2" placeholder="Last Name" required>
+                                <input type="text" name="username" id="usernames3" placeholder="User Name" required>
+                                <input type="email" name="Email" id="email1" placeholder="Email" required>
+                                <input type="password" name="confirm" id="passcodeconfirm1" placeholder="Password"
+                                    required>
+                                <input type="password" name="final" id="passcodefinal1" placeholder="Password" required>
+                                <button type="submit" id="btn-register">Register</button>
+                            </form>
+                            <!-- register end -->
+                            <!-- login start -->
+                            <form id="loginForm" action="#">
+                                <input type="text" name="username" id="usernames4" placeholder="User Name" required>
+
+                                <input type="password" name="confirm" id="passcodelog1" placeholder="Password" required>
+                                <!-- qr code -->
+                                <img src="https://cdn-icons-png.flaticon.com/128/1233/1233147.png?uid=R70190166&ga=GA1.2.1189623222.1651498086"
+                                    alt="">
+                                <!-- qr end -->
+                                <button type="submit" id="btn-forgot">Forgot Password</button>
+
+                                <button id="btn-login" type="submit">Login</button>
+                            </form>
+                            <!-- register end -->
+                        </div>
+
+                        <!-- form end -->
+                        <!-- control buttons -->
+                        <div class="controlButtons">
+                            <button class="mini-login">Login</button>
+                            <button class="mini-register">Register</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/SAIROHITHTIRUPATHI/Images/blob/main/bangles.jpg?raw=true"
+                            class="d-block w-100" alt="...">
+                        <div class="shopButtons">
+                            <h1>The latest collection of diamond bangles</h1>
+                            <h2>To steal your money!!!!</h2>
+                            <button>SHOP NOW</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://github.com/SAIROHITHTIRUPATHI/Images/blob/main/fashion-red.jpg?raw=true"
+                            class="d-block w-100" alt="...">
+                        <div class="shopButtons">
+                            <h1>Womens fashion wear and latest party collection!!!</h1>
+                            <h2>Empty your pockets!!!!</h2>
+                            <button>SHOP NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- overlay -->
+        <div class="overlay">
+
+        </div>
+        <!-- overlay-end -->
+        <!-- form -2 start -->
+        <div class="main-form-2">
+            <button class="btn-login-2">LOGIN</button>
+            <button class="btn-register-2">REGISTER</button>
+            <!-- login start -->
+            <form id="registerForm-2" action="#">
+                <input type="text" name="firstName" id="usernames5" placeholder="First Name" required>
+                <input type="text" name="lastName" id="usernames6" placeholder="Last Name" required>
+                <input type="text" name="username" id="usernames7" placeholder="User Name" required>
+                <input type="email" name="Email" id="email2" placeholder="Email" required>
+                <input type="password" name="confirm" id="passcodeconfirm2" placeholder="Password" required>
+                <input type="password" name="final" id="passcodefinal2" placeholder="Password" required>
+                <button type="submit" id="btn-register-2">Register</button>
+            </form>
+            <!-- login end -->
+            <!-- register start -->
+            <form id="loginForm-2" action="#">
+                <input type="text" name="username" id="usernames8" placeholder="User Name" required>
+
+                <input type="password" name="confirm" id="passcodelog2" placeholder="Password" required>
+                <!-- qr code -->
+                <img src="https://cdn-icons-png.flaticon.com/128/1233/1233147.png?uid=R70190166&ga=GA1.2.1189623222.1651498086"
+                    alt="">
+                <!-- qr end -->
+                <button type="submit" id="btn-forgot-2">Forgot Password</button>
+
+                <button id="btn-login-2" type="submit">Login</button>
+            </form>
+            <!-- register end -->
+        </div>
+        <!-- form -2 end -->
+        <section class="shopByCategory">
+            <h1 class="main-tag">SHOP BY CATEGORY</h1>
+            <div class="slider-wrap">
+                <div class="sliderButtons">
+                    <button class="btn-pre"><i class="fa-solid fa-backward"></i></button>
+                    <button class="btn-next"><i class="fa-solid fa-forward"></i></button>
+                </div>
+                <div class="slider">
+                    <div class="slider-inner">
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694" alt="watches">
+                                <div class="card-body">
+                                    <h5 class="card-title">WATCHES</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1567696153798-9111f9cd3d0d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PARTY BOQUETE</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1524701208119-e91fc2e4c8e5?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">RAY BAN</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1610057998992-6182af268499?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">MEN WITH GUN </h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1622497170185-5d668f816a56?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">PARTY BLAZER</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1606902965551-dce093cda6e7?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzB8fHdvbWVuJTIwZml0bmVzcyUyMHdlYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">YOGA KIT</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1558877025-7aa34b6ba233?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685"
+                                    alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">LEATHER JACKET</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1590756857953-282830d0a076?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FOREST WEAR</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1519866149690-12dfa6bfafe8?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">FASHION WEAR</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="card" class="card" style="width: 18rem;">
+                                <img src="https://images.unsplash.com/photo-1553845911-9e88516bdcbe?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">WINTER WEAR</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li id="card" class="list-group-item">An item</li>
+                                    <li id="card" class="list-group-item">
+                                        <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                        <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                    </li>
+                                    <li id="card" class="list-group-item">SELLER:HANMA MERCENDEZ</li>
+                                </ul>
+                                <div class="card-body">
+                                    <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                    <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="progress-bar" class="progress-bar">
+                    <div class="prog-bar-inner">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shopByProduct">
+            <section class="shopByProduct">
+                <h1 class="main-tag1">SHOP BY PRODUCT</h1>
+                <h2 id="womensFashion" class="second-tag">WOMENS FASHION</h2>
+                <div class="slider-wrap1">
+                    <div class="sliderButtons1">
+                        <button class="btn-pre1"><i class="fa-solid fa-backward"></i></button>
+                        <button class="btn-next1"><i class="fa-solid fa-forward"></i></button>
+                    </div>
+                    <div class="slider1">
+                        <div class="slider-inner1">
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1617059070087-d05ea39977dd?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="watches">
+                                    <div class="card-body">
+                                        <h5 class="card-title">JEANS COMBO</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1618374645957-04e5cc73ec21?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">NIGHT PARTY</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1617059153946-97005c8b5dbb?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">HIGHWAY COLLECTION</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1581044777550-4cfa60707c03?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CHINESE COLLECTION</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1617059322001-a61ce9551e08?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CASUAL JEANS</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1589229945620-e34681bd1ecf?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SKIRT</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1552954277-a32bc2de3c38?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">EUROPE COLLECTION</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1619425623830-40d84caef183?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">WINTER WEAR</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1603344797033-f0f4f587ab60?ixlib=rb-1.2.1&raw_url=true&q=60&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">HYBRID SUIT</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item1">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8amVhbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">RUGGED JEANS</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="progress-bar1" class="progress-bar1">
+                        <div class="prog-bar-inner1">
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- second slider -->
+                <h2 id="accessories" class="second-tag">ACCESSORIES</h2>
+                <div class="slider-wrap2">
+                    <div class="sliderButtons2">
+                        <button class="btn-pre2"><i class="fa-solid fa-backward"></i></button>
+                        <button class="btn-next2"><i class="fa-solid fa-forward"></i></button>
+                    </div>
+                    <div class="slider2">
+                        <div class="slider-inner2">
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"
+                                        class="card-img-top" alt="watches">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ROLEX</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">TITAN</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1517390947773-a742ed6ce0d9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">GOLD COATED</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1611652032931-10fc009c980a?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">NECKLACE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">OBSIDIAN</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1599459182681-c938b7f65af0?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DIAMOND JEWELLERY</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1605089315599-ca966e96b56a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">WEDDING RING</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1596213411964-ee96819a396c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">DIAMONDS</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1529186235701-0b71c2c19a13?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CHOKER</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="#lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="#lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item2">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/flagged/photo-1551854716-8b811be39e7e?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BANGLES AND NECKLACE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="progress-bar2" class="progress-bar2">
+                        <div class="prog-bar-inner2">
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- third slider -->
+                <h2 id="clothing" class="second-tag">CASUAL WEAR</h2>
+                <div class="slider-wrap3">
+                    <div class="sliderButtons3">
+                        <button class="btn-pre3"><i class="fa-solid fa-backward"></i></button>
+                        <button class="btn-next3"><i class="fa-solid fa-forward"></i></button>
+                    </div>
+                    <div class="slider3">
+                        <div class="slider-inner3">
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1586283893587-a537c0f2fe70?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="watches">
+                                    <div class="card-body">
+                                        <h5 class="card-title">WRIST BAND</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1598971448040-cfd8e9267d9f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">NIKE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1579758682665-53a1a614eea6?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MENS SHORTS</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1519058082700-08a0b56da9b4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">MEN TSHIRT</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1526411803240-adf6120a86e4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SUMMER WEAR</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1529171235968-cd8b618415af?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SWIM SUIT</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1602562942300-eedae683dd6b?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">LIMITED COLLECTION</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1627459324195-fda68b500daf?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fHNob3J0JTIwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">COMFORT WEAR</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1600075110751-f9530ec375e0?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">WHITE SHIRT COMBO</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item3">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1525109155661-35d70e8ebc39?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">COTTEN WEAR</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="progress-bar3" class="progress-bar3">
+                        <div class="prog-bar-inner3">
+    
+                        </div>
+                    </div>
+                </div>
+                <!-- fourth -->
+                <h2 id="battleField" class="second-tag">BATTLEFIELD</h2>
+                <div class="slider-wrap4">
+                    <div class="sliderButtons4">
+                        <button class="btn-pre4"><i class="fa-solid fa-backward"></i></button>
+                        <button class="btn-next4"><i class="fa-solid fa-forward"></i></button>
+                    </div>
+                    <div class="slider4">
+                        <div class="slider-inner4">
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1610165539774-791ae89d0574?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="watches">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SPECIAL COLLECTION</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1552257127-151dd9bcc678?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BUNCH OF BULLET</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1579978394084-76e4311bc86c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">CALLIBER SERIES</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1619760563678-02e23d15f69f?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">COMBO KIT</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1623691654712-450b7ff3fe15?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SNIPER KIT</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1532989029401-439615f3d4b4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">FOREST DRONE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1612813092731-0f4dfc059942?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SMOKE GRENADE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1605038146318-8e95f70b3a94?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SURVIVAL KNIFE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                       
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1500221079655-3cb71a299f6c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SURVIVAL AXE</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item4">
+                                <div id="card" class="card" style="width: 18rem;">
+                                    <img src="https://images.unsplash.com/photo-1590585382453-8b749e9d5224?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">BOW</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make up
+                                            the bulk of the card's content.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                       
+                                        <li id="card" class="list-group-item">
+                                            <span class="star-one"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-two"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-three"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-four"><i class="fa-solid fa-star"></i></span>
+                                            <span class="star-five"><i class="fa-solid fa-star"></i></span>
+                                        </li>
+                                        
+                                    </ul>
+                                    <div class="card-body">
+                                        <a href="lstorage.html"><button class="card-link">CART</button></a>
+                                        <a href="lstorage.html"><button class="card-link">BUY</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="progress-bar4" class="progress-bar4">
+                        <div class="prog-bar-inner4">
+    
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <section class="minions">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2 class="feature-head">OUR FEATURES</h2>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-3"><img class="minion-img" src="https://cdn-icons-png.flaticon.com/512/1251/1251284.png?w=826" alt=""><h3>SECURITY GUARENTEE</h3></div>
+                    <div class="col-12 col-lg-3 col-md-3 col-sm-3"><img class="minion-img" src="https://cdn-icons-png.flaticon.com/512/1008/1008754.png?w=826" alt=""><h3>PRIVACY NO COMPROMISE</h3></div>
+                     <div class="col-12 col-lg-3 col-md-3 col-sm-3"><img class="minion-img" src="https://cdn-icons-png.flaticon.com/512/1255/1255688.png?w=826" alt=""><h3>OPEN TO QUERIES</h3></div>
+                     <div class="col-12 col-lg-3 col-md-3 col-sm-3"><img class="minion-img" src="https://cdn-icons-png.flaticon.com/512/1251/1251323.png?w=826" alt=""><h3>24/7 IMMEDIATE RESPONSE</h3></div>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-discord"></i></a></li>
+              </ul>
+            </footer>
+          </div>
+
+    </footer>
+
+
+
+    <script src="js/home.js"></script>
+</body>
+
+</html>

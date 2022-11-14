@@ -1,0 +1,623 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: inherit;
+    font-family: sans-serif;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.flag {
+    width: 40px;
+    height: 35px;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+#flagAndCountry {
+    display: flex;
+}
+.main-logo
+{
+    width: 100%;
+}
+.main-logo img
+{
+    margin-left: 5%;
+}
+
+/* breadcrumb modifications */
+.breadCrump {
+    height: 50px;
+    padding: 15px;
+    font-weight: 600;
+    width: 100%;
+    background-color: rgba(160, 216, 236, 0.154);
+}
+.breadCrump li a
+{
+    text-decoration: none;
+}
+/* last icons */
+#secure-icons div {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#secure-icons div div {
+    text-align: center;
+}
+
+#secure-icons div div img {
+    width: 150px;
+}
+
+#secure-icons div div h4 {
+    margin-top: 5%;
+}
+
+
+.iconHidder {
+    display: none;
+}
+
+/* common */
+.hide {
+    height: 0px;
+    overflow: hidden;
+}
+
+/* flash */
+#button-addon1 {
+    color: #ffc371;
+}
+
+i {
+    color: #ffc371;
+}
+
+.form-control::placeholder {
+    font-size: 0.95rem;
+    color: #aaa;
+    font-style: italic;
+}
+
+.form-control.shadow-0:focus {
+    box-shadow: none;
+}
+
+/* my mods */
+.lower-footer {
+    margin-top: 50px;
+}
+
+#credit {
+    float: left;
+    text-align: right;
+}
+
+#credit div {
+    text-align: left;
+    display: flex;
+}
+
+#credit img {
+    width: 100px;
+}
+
+#dropdownMenuButton1 {
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 1px solid black;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.list-inline-item i {
+    font-size: 50px;
+}
+.mb-2 a
+{
+    text-decoration: none;
+    color: rgb(148, 124, 124);
+}
+.mb-4 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+.upper-footer
+{
+    background-color: rgba(0, 0, 0, 0.735);
+    color: whitesmoke;
+}
+
+#brand-name {
+    font-style: italic;
+    animation: brandy 10s infinite;
+}
+
+@keyframes brandy {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: rgb(246, 241, 241);
+    }
+
+    20% {
+        color: rgb(13, 61, 219);
+    }
+
+    30% {
+        color: rgb(67, 236, 15);
+    }
+
+    40% {
+        color: rgba(0, 255, 81, 0.536);
+    }
+
+    50% {
+        color: rgba(255, 0, 0, 0.471);
+    }
+
+    60% {
+        color: rgb(97, 163, 22);
+    }
+
+    70% {
+        color: rgba(34, 0, 255, 0.409);
+    }
+
+    80% {
+        color: rgb(243, 248, 239);
+    }
+
+    90% {
+        color: rgb(0, 255, 68);
+    }
+
+    100% {
+        color: rgba(255, 0, 0, 0.361);
+    }
+
+}
+/* New css */
+.countBox
+{
+    background-color: rgba(253, 174, 3, 0.651);
+    color: white;
+    border-radius: 10px;
+}
+.countBox div div ul li
+{
+    list-style: none;
+}
+.productCount
+{
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+}
+.priceCount
+{
+    float: right;
+    margin-right: 30px;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.priceCount i
+{
+    color: whitesmoke;
+}
+/* product main names */
+.productName
+{
+    font-weight: 600;
+    font-size: 30px;
+}
+.productColor
+{
+    font-weight: 600;
+}
+.productSeller
+{
+    font-weight: 600;
+}
+/* product quality filter */
+#quantityDropdowns
+{
+    margin-top: 50px;
+}
+#productSize 
+{
+    height: 100%;  
+}
+#productQuantity
+{
+    margin-top: 10px;
+}
+#productQuantity .form-select
+{
+    height: 100%;
+    font-size: 15px;
+    outline: none;
+    border: 0px solid  black;
+    background-color:rgba(255, 166, 0, 0.718);
+    color: white;
+    text-align: center;
+    font-weight: 600; 
+}
+.productPrice
+{
+    text-align: right;
+    font-weight: 200;
+    font-size: 25px;
+}
+.discountPrice
+{
+    text-align: right;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.391);
+    font-size: 15px;
+}
+.deliveryStatement
+{
+    text-align: right;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.408);
+    font-size: 15px;
+}
+/* cart buttons */
+.btnRemove
+{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(255, 166, 0, 0.641);
+    border-radius: 30px;
+    border: 0px solid;
+    transition: 0.2s;
+}
+.btnRemove:hover
+{
+    transition: 0.5s;
+    background-color: red;
+}
+.btnRemove i
+{
+    color: white;
+}
+.btnwhishlist
+{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(255, 166, 0, 0.683);
+    border-radius: 30px;
+    border: 0px solid;
+    transition: 0.2s;
+}
+.btnwhishlist:hover
+{
+    transition: 0.5s;
+    background-color: rgba(224, 123, 15, 0.692);
+}
+.btnwhishlist i
+{
+    color: white;
+}
+#middle-part
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#full-part
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* summary part */
+.summaryBox
+{
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+    background-color:#e0bf079c;
+    color: white;
+}
+.summaryBox .row
+{
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.626);
+}
+.applytag 
+{
+    font-size: 45px;
+    margin-top: 20px;
+    color: rgba(6, 6, 6, 0.619);
+}
+.applypara
+{
+    font-size: 18px;
+    font-weight: 1000;
+    color: rgb(32, 30, 30);
+    font-weight: 600;
+    margin-top: 10px;
+}
+.applybtn 
+{
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    border-radius: 30px;
+    outline: none;
+    border: 0px solid;
+    background-color: rgba(255, 217, 0, 0.559);
+    color: white;
+    margin-top: 20px;
+    transition: 0.2s;
+}
+.applybtn:hover
+{
+    background-color: white;
+    color: rgb(1, 246, 1);
+    transition: 0.5s;
+}
+.movingButtons
+{
+    display: flex;
+}
+.priceAll
+{
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.584);
+    color: rgba(0, 0, 0, 0.862);
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.priceAll li
+{
+    display: flex;
+}
+.priceAll li p
+{
+    text-align: left;
+    width: 50%;
+    font-size: 20px;
+}
+.priceAll li span
+{
+    text-align: right;
+    width: 50%;
+    margin-right: 30px;
+    font-size: 20px;
+    color: green;
+}
+
+.placeOrder
+{
+    width: 100%;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: rgba(255, 166, 0, 0.289);
+    color: white;
+    border: 0px solid;
+    transition: 0.2s;
+}
+.placeOrder:hover
+{
+    background-color: white;
+    color: rgb(1, 246, 1);
+    transition: 0.5s;
+}
+
+/* new css */
+
+.invisible
+{
+    visibility: hidden;
+}
+/* resolution */
+@media screen and (max-width:1000px) {
+   
+    .productCount
+    {
+        font-size: 15px;
+    }
+    .priceCount
+    {
+        font-size: 15px;
+    }
+    .productName
+    {
+        font-size: 15px;
+    }
+    .productColor
+    {
+        font-size: 12px;
+    }
+    .productSeller
+    {
+        font-size: 12px;
+    }
+    .btnRemove
+    {
+        width: 150px;
+        height: 35px;
+    }
+    .btnwhishlist
+    {
+        width: 150px;
+        margin-left: 20px;
+        height: 35px;
+    }
+    #middle-part
+    {
+        margin-bottom: 20px;
+    }
+    .summaryBox
+    {
+        margin-top: 50px;
+    }
+    .summaryBox div div i
+    {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+    .applypara
+    {
+        font-size: 15px; 
+        margin-top: 15px;
+    }
+    .applybtn
+    {
+        margin-top: 10px;
+        height: 30px;
+        width: 80px;
+        
+    }
+    #secondData
+    {
+        text-align: right;
+    }
+    
+    
+}
+@media screen and (max-width:700px) {
+    .productPrice
+    {
+        font-size: 15px
+    }
+    .discountPrice
+    {
+        font-size: 15px
+    }
+    .deliveryStatement
+    {
+        font-size: 15px
+    } 
+    .btnRemove
+    {
+        width: 150px;
+        height: 35px;
+        font-size: 18px;
+    }
+    .btnwhishlist
+    {
+        width: 150px;
+        height: 35px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .applytag
+    {
+        margin-top: 5px;
+    }
+     
+}
+@media screen and (max-width:550px) {
+    .btnRemove
+    {
+        width: 80px;
+        height: 35px;
+    }
+    .btnwhishlist
+    {
+        width: 80px;
+        height: 35px;
+        margin-left: 10px;
+    }
+    .mini-carts
+{
+    font-size: 45px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+    
+   
+    
+}
+/* breadcrumb modifications */
+#pathline {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* new css */
+.bread {
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.bread a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.bread li {
+    margin-left: 20px;
+}
+
+#pathline h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+.mini-carts
+{
+    font-size: 45px;
+    margin-top: 20px;
+    text-align: right;
+    margin-right: 10px;
+}
+.mini-val-cart
+{
+    font-size: 15px;
+    background-color: rgba(255, 166, 0, 0.484);
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 100%;
+  
+}
+.mini-val-wish
+{
+    font-size: 15px;
+    background-color: rgba(255, 166, 0, 0.484);
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 100%;
+}
+#mini-tabs-bars li a:hover
+{
+    font-size: 20px;
+    color: rgb(19, 224, 19);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,1362 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* All header design and navigation part is here!!! */
+/* header part end here!! */
+/* main part start here */
+/* corousal */
+.main-form {
+    width: 450px;
+    height: 760px;
+    border: 0px solid black;
+    text-align: center;
+    padding-top: 30px;
+    /* position */
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    /* shape */
+    border-radius: 50px;
+    box-shadow: 30px 30px 50px -0px black;
+    padding-top: 80px;
+    overflow: hidden;
+
+}
+
+.main-form button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 1000;
+    border: 0px solid;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.main-form form input {
+    width: 90%;
+    outline: none;
+    border: 0px solid;
+    margin: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main-form form button {
+    margin: 10px;
+    height: 50px;
+    width: 90%;
+    border: 0px solid;
+    outline: none;
+}
+
+.main-form form img {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btn-register {
+    margin-top: 30px;
+}
+
+#loginForm {
+    display: block;
+}
+
+#registerForm {
+    display: none;
+}
+/* buttons of register */
+
+/* buttons */
+.btn-login {
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-login:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-register {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.btn-register:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+#btn-register {
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.5s;
+}
+
+#btn-register:hover {
+    background-color: rgba(0, 255, 0, 0.707);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#btn-login {
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.5s;
+}
+
+#btn-login:hover {
+    background-color: rgba(0, 255, 0, 0.237);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#btn-forgot {
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.5s;
+}
+
+#btn-forgot:hover {
+    background-color: rgba(255, 0, 0, 0.48);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+/* floating form for page */
+/* form-2 css */
+.main-form-2 {
+    width: 450px;
+    height: 760px;
+    border: 0px solid black;
+    text-align: center;
+    padding-top: 30px;
+    /* position */
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    /* shape */
+    border-radius: 50px;
+    box-shadow: 30px 30px 50px -0px black;
+    padding-top: 80px;
+    overflow: hidden;
+    z-index: 10;
+    background-color: rgb(255, 200, 100);
+    display: none;
+
+}
+
+.main-form-2 button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: 1000;
+    border: 0px solid;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.main-form-2 form input {
+    width: 90%;
+    outline: none;
+    border: 0px solid;
+    margin: 20px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main-form-2 form button {
+    margin: 10px;
+    height: 50px;
+    width: 90%;
+    border: 0px solid;
+    outline: none;
+}
+
+.main-form-2 form img {
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btn-register {
+    margin-top: 30px;
+}
+
+#loginForm-2 {
+    display: block;
+}
+
+#registerForm-2 {
+    display: none;
+}
+
+/* buttons */
+.btn-login-2 {
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-login-2:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.btn-register-2 {
+    background-color: rgba(255, 255, 255, 0.407);
+    color: black;
+    transition: 0.5s;
+
+}
+
+.btn-register-2:hover {
+    background-color: rgba(255, 0, 0, 0.508);
+    color: white;
+    transition: 0.5s;
+}
+
+#btn-register-2 {
+    background-color: rgba(245, 245, 245, 0.481);
+    color: black;
+    transition: 0.5s;
+}
+
+#btn-register-2:hover {
+    background-color: rgba(0, 255, 0, 0.41);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#btn-login-2 {
+    background-color: rgba(245, 245, 245, 0.501);
+    color: black;
+    transition: 0.5s;
+}
+
+#btn-login-2:hover {
+    background-color: rgba(0, 255, 0, 0.359);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+#btn-forgot-2 {
+    background-color: rgba(245, 245, 245, 0.556);
+    color: black;
+    transition: 0.5s;
+}
+
+#btn-forgot-2:hover {
+    background-color: rgba(255, 0, 0, 0.66);
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+/* mini-controls-button */
+.controlButtons {
+    display: none;
+}
+
+/* SHOP NOW */
+.shopButtons {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+
+.shopButtons h1 {
+    background-color: rgba(245, 245, 245, 0.515);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.shopButtons h2 {
+    background-color: rgba(245, 245, 245, 0.515);
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.shopButtons button {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    font-size: 25px;
+    outline: none;
+    border: 0px solid;
+    font-weight: 600;
+    background-color: red;
+    color: whitesmoke;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+
+.shopButtons button:hover {
+    background-color: rgb(3, 228, 3);
+    transition: 0.5s;
+}
+
+/* main part end here */
+
+/* section shop by category */
+.shopByCategory
+{
+    background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?t=st=1653049155~exp=1653049755~hmac=1f1b640f7a8159d573b61acb5b3f3db7f0fa9a25017815be5635f8e5f3ddf2a2&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 10%;
+}
+.slider-wrap {
+    width: 80%;
+    height: fit-content;
+    border: 0px solid black;
+    cursor: grab;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sliderButtons {
+    text-align: center;
+}
+
+.btn-pre {
+    font-size: 30px;
+    color: rgb(43, 39, 39);
+    background-color: transparent;
+    position: absolute;
+    left: 3%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 700px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-pre:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.btn-next {
+    font-size: 30px;
+    color: rgb(77, 60, 60);
+    background-color:transparent;
+    position: absolute;
+    right: 3%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 700px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-next:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-inner {
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    width: 3000px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 98%;
+    border: 0px solid black;
+    background-color: rgba(255, 228, 196, 0.57);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 15px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#progress-bar
+{
+    background-color: rgba(114, 92, 92, 0.307);
+}
+
+.prog-bar-inner {
+    width: 0%;
+    height: 100%;
+    background-color: rgba(255, 228, 177, 0.463);
+}
+#card
+{
+    background-color: rgba(245, 245, 245, 0.363);
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+#card span i
+{
+    color: rgb(255, 217, 0);
+    font-size: 25px;
+}
+.main-tag
+{
+    text-align: center;
+    padding-top: 10%;
+}
+/* card buttons */
+.card-link
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    border: 0px solid;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 800;
+    background-color: rgba(255, 0, 0, 0.643);
+    transition: 0.5s;
+}
+.card-link:hover
+{
+    transition: 0.5s;
+    background-color: rgba(0, 128, 0, 0.439);
+    color: rgba(21, 21, 21, 0.552);
+}
+/* Shop by product */
+
+.shopByProduct
+{
+    padding-bottom: 10%;
+    background-color: rgb(255, 255, 255);
+}
+/* one */
+.slider-wrap1 {
+    width: 90%;
+    height: fit-content;
+    border: 0px solid black;
+    cursor: grab;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sliderButtons1 {
+    text-align: center;
+}
+
+.btn-pre1 {
+    font-size: 30px;
+    color: rgb(43, 39, 39);
+    background-color: transparent;
+    position: absolute;
+    left: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-pre1:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.btn-next1 {
+    font-size: 30px;
+    color: rgb(77, 60, 60);
+    background-color:transparent;
+    position: absolute;
+    right: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-next1:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.slider1 {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.slider1::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-inner1 {
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    width: 3000px;
+}
+
+.item1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 98%;
+    border: 0px solid black;
+    background-color: rgba(255, 228, 196, 0.57);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress-bar1 {
+    width: 100%;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#progress-bar1
+{
+    background-color: rgba(6, 6, 6, 0.307);
+}
+
+.prog-bar-inner1 {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(255, 228, 177);
+}
+/* two */
+.slider-wrap2 {
+    width: 90%;
+    height: fit-content;
+    border: 0px solid black;
+    cursor: grab;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sliderButtons2 {
+    text-align: center;
+}
+
+.btn-pre2 {
+    font-size: 30px;
+    color: rgb(43, 39, 39);
+    background-color: transparent;
+    position: absolute;
+    left: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-pre2:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.btn-next2 {
+    font-size: 30px;
+    color: rgb(77, 60, 60);
+    background-color:transparent;
+    position: absolute;
+    right: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-next2:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.slider2 {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.slider2::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-inner2 {
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    width: 3000px;
+}
+
+.item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 98%;
+    border: 0px solid black;
+    background-color: rgba(255, 228, 196, 0.57);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress-bar2 {
+    width: 100%;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#progress-bar2
+{
+    background-color: rgba(0, 0, 0, 0.307);
+}
+
+.prog-bar-inner2 {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(255, 228, 177);
+}
+/* three */
+.slider-wrap3 {
+    width: 90%;
+    height: fit-content;
+    border: 0px solid black;
+    cursor: grab;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sliderButtons3 {
+    text-align: center;
+}
+
+.btn-pre3 {
+    font-size: 30px;
+    color: rgb(43, 39, 39);
+    background-color: transparent;
+    position: absolute;
+    left: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-pre3:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.btn-next3 {
+    font-size: 30px;
+    color: rgb(77, 60, 60);
+    background-color:transparent;
+    position: absolute;
+    right: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-next3:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.slider3 {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.slider3::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-inner3 {
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    width: 3000px;
+}
+
+.item3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 98%;
+    border: 0px solid black;
+    background-color: rgba(255, 228, 196, 0.57);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress-bar3 {
+    width: 100%;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#progress-bar3
+{
+    background-color: rgba(0, 0, 0, 0.307);
+}
+
+.prog-bar-inner3 {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(255, 228, 177);
+}
+/* four */
+.slider-wrap4 {
+    width: 90%;
+    height: fit-content;
+    border: 0px solid black;
+    cursor: grab;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sliderButtons4 {
+    text-align: center;
+}
+
+.btn-pre4 {
+    font-size: 30px;
+    color: rgb(43, 39, 39);
+    background-color: transparent;
+    position: absolute;
+    left: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-pre4:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.btn-next4 {
+    font-size: 30px;
+    color: rgb(77, 60, 60);
+    background-color:transparent;
+    position: absolute;
+    right: 1%;
+    border: 0px solid;
+    border-radius: 10%;
+    height: 500px;
+    width: 5%;
+    outline: none;
+    border: 0px solid;
+    transition: 0.5s;
+}
+.btn-next4:hover
+{
+    color: rgba(255, 0, 0, 0.591);
+}
+
+.slider4 {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.slider4::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-inner4 {
+    justify-content: space-around;
+    display: flex;
+    height: 100%;
+    width: 3000px;
+}
+
+.item4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 98%;
+    border: 0px solid black;
+    background-color: rgba(255, 228, 196, 0.57);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.progress-bar4 {
+    width: 100%;
+    height: 10px;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#progress-bar4
+{
+    background-color: rgba(0, 0, 0, 0.307);
+}
+
+.prog-bar-inner4 {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(255, 228, 177);
+}
+/* common */
+.main-tag1
+{
+    text-align: center;
+    padding-top: 5%;
+}
+.second-tag
+{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* shop by product end */
+/* minions */
+.minions
+{
+    display: flex;
+    text-align: center;
+    background-color: antiquewhite;
+    padding-bottom: 10%;
+    
+}
+.minion-img
+{
+    width: 100px;
+    height: fit-content;
+    margin-bottom: 2%;
+}
+.feature-head
+{
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* common part */
+.overlay {
+    width: 100%;
+    height: 150%;
+    background-color: rgba(245, 245, 245, 0.678);
+    filter: blur(3px);
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+}
+
+
+/* resolution */
+@media screen and (max-width:1700px) {
+    .main-form {
+        display: none;
+        background-color: black;
+    }
+
+    .controlButtons {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 15%;
+    }
+
+    .mini-login {
+        width: 300px;
+        height: 100px;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        border-radius: 40px;
+        outline: none;
+        border: 0px solid;
+        background-color: red;
+        color: whitesmoke;
+
+    }
+
+    .mini-register {
+        width: 300px;
+        height: 100px;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 20px;
+        border-radius: 40px;
+        outline: none;
+        border: 0px solid;
+        background-color: red;
+        color: whitesmoke;
+    }
+
+    .main-form-2 {
+        position: absolute;
+        left: 25%;
+    }
+
+    /* shop buttons */
+    .shopButtons {
+        position: absolute;
+        top: 45%;
+        left: 300px;
+    }
+
+    .shopButtons h1 {
+        background-color: rgba(245, 245, 245, 0.515);
+        padding: 30px;
+        border-radius: 30px;
+        font-size: 30px;
+    }
+
+    .shopButtons h2 {
+        background-color: rgba(245, 245, 245, 0.515);
+        padding: 20px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    .shopButtons button {
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        font-size: 25px;
+        outline: none;
+        border: 0px solid;
+        font-weight: 600;
+        background-color: red;
+        color: whitesmoke;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .shopButtons button:hover {
+        background-color: rgb(3, 228, 3);
+        transition: 0.5s;
+
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .mini-login {
+        width: 200px;
+        height: 80px;
+    }
+
+    .mini-register {
+        width: 200px;
+        height: 80px;
+    }
+
+    /* shop buttons */
+    .shopButtons {
+        position: absolute;
+        top: 35%;
+        left: 200px;
+    }
+
+    .shopButtons h1 {
+        background-color: rgba(245, 245, 245, 0.515);
+        padding: 20px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    .shopButtons h2 {
+        background-color: rgba(245, 245, 245, 0.515);
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 10px;
+    }
+
+    .shopButtons button {
+        width: 200px;
+        height: 60px;
+        border-radius: 50px;
+        font-size: 25px;
+        outline: none;
+        border: 0px solid;
+        font-weight: 600;
+        background-color: red;
+        color: whitesmoke;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .shopButtons button:hover {
+        background-color: rgb(3, 228, 3);
+        transition: 0.5s;
+
+    }
+
+}
+
+@media screen and (max-width:750px) {
+    .shopButtons {
+        position: absolute;
+        top: 55%;
+        left: 300px;
+    }
+
+    .shopButtons h1 {
+        background-color: rgba(245, 245, 245, 0.515);
+        padding: 30px;
+        border-radius: 30px;
+        font-size: 30px;
+        display: none;
+    }
+
+    .shopButtons h2 {
+        background-color: rgba(245, 245, 245, 0.515);
+        padding: 20px;
+        border-radius: 30px;
+        font-size: 20px;
+        display: none;
+    }
+
+    .shopButtons button {
+        width: 150px;
+        height: 40px;
+        border-radius: 50px;
+        font-size: 15px;
+        outline: none;
+        border: 0px solid;
+        font-weight: 600;
+        background-color: red;
+        color: whitesmoke;
+        transition: 0.5s;
+        margin-top: 20px;
+    }
+
+    .shopButtons button:hover {
+        background-color: rgb(3, 228, 3);
+        transition: 0.5s;
+
+    }
+
+}
+
+@media screen and (max-width:580px) {
+    .main-form-2 {
+        width: 400px;
+        left: 3%;
+    }
+
+    .main-form-2 button {
+        width: 180px;
+    }
+
+    .mini-login {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+
+    .mini-register {
+        width: 100px;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 30px;
+    }
+     /* button */
+     .btn-pre {
+        font-size: 20px;
+        color: rgb(43, 39, 39);
+        background-color: transparent;
+        position: absolute;
+        left: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-pre:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+    
+    .btn-next {
+        font-size: 20px;
+        color: rgb(77, 60, 60);
+        background-color:transparent;
+        position: absolute;
+        right: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-next:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+     /* button-1 */
+     .btn-pre1 {
+        font-size: 20px;
+        color: rgb(43, 39, 39);
+        background-color: transparent;
+        position: absolute;
+        left: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-pre1:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+    
+    .btn-next1 {
+        font-size: 20px;
+        color: rgb(77, 60, 60);
+        background-color:transparent;
+        position: absolute;
+        right: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-next1:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+     /* button-2 */
+     .btn-pre2 {
+        font-size: 20px;
+        color: rgb(43, 39, 39);
+        background-color: transparent;
+        position: absolute;
+        left: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-pre2:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+    
+    .btn-next2 {
+        font-size: 20px;
+        color: rgb(77, 60, 60);
+        background-color:transparent;
+        position: absolute;
+        right: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-next2:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+     /* button-3 */
+     .btn-pre3 {
+        font-size: 20px;
+        color: rgb(43, 39, 39);
+        background-color: transparent;
+        position: absolute;
+        left: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-pre3:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+    
+    .btn-next3 {
+        font-size: 20px;
+        color: rgb(77, 60, 60);
+        background-color:transparent;
+        position: absolute;
+        right: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-next3:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+    /* button-4 */
+    .btn-pre4 {
+        font-size: 20px;
+        color: rgb(43, 39, 39);
+        background-color: transparent;
+        position: absolute;
+        left: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-pre4:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+    
+    .btn-next4 {
+        font-size: 20px;
+        color: rgb(77, 60, 60);
+        background-color:transparent;
+        position: absolute;
+        right: 1%;
+        border: 0px solid;
+        border-radius: 10%;
+        height: 500px;
+        width: 5%;
+        outline: none;
+        border: 0px solid;
+        transition: 0.5s;
+    }
+    .btn-next4:hover
+    {
+        color: rgba(255, 0, 0, 0.591);
+    }
+
+
+
+
+}
+
+/* old css */
+
+#brand-name
+{
+  animation: brandy 10s infinite;
+  transition: 0.5s;
+
+}
+@keyframes brandy {
+  0%{
+    color:rgb(0, 255, 21);
+  }
+  20%{
+    color:rgb(230, 255, 179);
+  }
+  40%{
+    color:yellow;
+  }
+  60%{
+    color:rgb(255, 255, 255);
+  }
+  80%{
+    color:rgb(255, 172, 172);
+  }
+  100%{
+    color:rgb(255, 0, 13);
+  }
+  
+}
+#mini-tabs-bars li a:hover
+{
+    font-size: 20px;
+    color: rgb(19, 224, 19);
+}
+
+

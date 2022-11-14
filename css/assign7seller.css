@@ -1,0 +1,1049 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+html
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Upper navigation bar */
+#brand-name
+{
+    font-style: italic;
+    margin-right: 90px;
+}
+/* Upper navigation bar end */
+/* Lower navigation */
+#btn-sign-in
+{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#btn-sign-in button
+{
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 0px solid;
+}
+/* lower navigation bar ends here */
+/* main part starts here */
+#jumboImages-part
+{
+    background-image: url("https://img.freepik.com/free-photo/happy-young-woman-sitting-floor-using-laptop-gray-wall_231208-11472.jpg?t=st=1652158770~exp=1652159370~hmac=a8080f0575c71823f7666658728b6cb0bfa1ba79f85a306d6a95dcc3395d936b&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-one
+{
+    margin-top:100px;
+    margin-left: 10px;
+    width: 50%;
+    text-align: center;
+}
+.head-two
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 60%;
+    text-align: center;
+}
+.head-three
+{
+    margin-top: 450px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 100%;
+    text-align: center;
+}
+#headline-one
+{
+  text-align: center;
+  margin-top:0px;
+  background-image: url("https://img.freepik.com/free-photo/hand-using-gadgets-laptop-top-view-blank-screen-with-copyspace-minimalistic-style-technologies-modern-marketing-negative-space-ad-flyer-yellow-color-background-stylish-trendy_155003-39472.jpg?t=st=1652158320~exp=1652158920~hmac=3327292a2b5047a1cfc07cd4ae0c0d1923b0c82deab00d37205cd4023a54e7f4&w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#headline-one h1
+{
+  margin-top: 300px;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+}
+#headline-one h2
+{
+  font-style: italic;
+  font-size: 60px;
+  color: red;
+}
+#headline-one h5
+{
+  margin-bottom: 300px;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+/* main part 2 start */
+#main-part-two 
+{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.card
+{
+  margin: 25%;
+  margin-top: 50%;
+  margin-bottom: 100%;
+  outline: none;
+  border: 0px solid;
+  transition: 0.5s;
+}
+.card:hover
+{
+  box-shadow: 50px 30px 30px 0px rgb(71, 33, 33);
+  transition: 0.5s;
+}
+.card-body p
+{
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+/* main part 2 ends */
+/* main part 3 starts */
+#main-part-3
+{
+  background-image: url("https://img.freepik.com/free-photo/cute-asian-woman-studying-laptop-smiling-standing-against-yellow-wall_231208-13156.jpg?w=1380&t=st=1652158856~exp=1652159456~hmac=0ccf4a0d6c0a263fce63a50f63ebdf1529e77626c982c5b1068c3a3b53a397d8");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* main part 3 ends */
+
+/* main part ends here */
+/* footer part starts here */
+.footer-headline h5
+{
+  margin-left: 45px;
+}
+.credit-images span 
+{
+  width: 35px;
+  margin-left: 25px;
+}
+.second-footer-headline
+{
+  text-align: right;
+  margin-right: 90px;
+}
+.connect-images
+{
+  text-align: right;
+}
+.connect-images span
+{
+  font-size: 25px;
+  margin-right: 25px;
+}
+/* footer part ends here */
+
+
+/* previous css start */
+/* Thanks box part */
+#thanksBox
+{
+    background-color: white;
+    z-index: 10;
+    border-radius: 30px;
+    margin-top: 200px;
+}
+#thankboxPosition
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;  
+}
+
+/* main box */
+.mainBox {
+  width: 100%;
+  height:max-content;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-color:transparent;
+  margin-bottom: 50%;
+}
+
+
+/* inside main box the formbox */
+.formBox {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  margin-top: 20% ;
+  margin-bottom: 20% ;
+  margin-left: 20%;
+  padding: 5px;
+  outline: none;
+  overflow: hidden;
+  box-shadow: 20px 20px 50px 0px;
+  border-radius: 30px;
+  background-color: rgba(193, 194, 189, 0.796);
+}
+
+/* buttons */
+.btn-box {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.btnLogin {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px solid;
+  outline: none;
+  background-color:rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  transition: 0.5s;
+}
+.btnClose
+{
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  transition: 0.5s;
+  font-weight: 600;
+}
+.btnClose:hover
+{
+  color: red;
+  transition: 0.5s;
+}
+
+.btnCreate {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px solid;
+  outline: none;
+  background-color: rgb(255, 162, 30);
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+/* input login  */
+.input-login
+{
+  margin-top: 50px;
+  width: 390px;
+  transition: 5s; 
+  background-color: transparent;
+}
+.input-register
+{
+  margin-top: 50px;
+  width: 390px;
+  transition: 5s;
+  background-color: transparent;
+}
+.input-field
+{
+  width: 100%;
+  margin: 20px 0;
+  border-left: 0px;
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: transparent;
+}
+/* password hide and unhide */
+.locker
+{
+  position: absolute;
+  bottom:220px ;
+  left: 350px;
+
+}
+.locker2
+{
+  position: absolute;
+  bottom:220px ;
+  left: 350px;
+
+}
+/* login set */
+.lockera
+{
+  position: absolute;
+  bottom:290px ;
+  left: 350px;
+
+}
+.lockerb
+{
+  position: absolute;
+  bottom:290px ;
+  left: 350px;
+
+}
+.submit-btn
+{
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px 10px 0px;
+  font-weight: 600;
+  background-color: whitesmoke;
+  transition: 0.5s;
+}
+/* hover effects */
+.submit-btn:hover
+{
+  background-color: rgb(103, 164, 11);
+  color: white;
+  transition: 0.5s;
+}
+.forgot-btn
+{
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  border: 0px solid;
+  outline: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px 0px 10px 0px;
+  font-weight: 600;
+}
+/* hover effects */
+.forgot-btn:hover
+{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  transition: 0.5s;
+}
+.checkBox
+{
+  margin: 30px 10px 30px 0;
+}
+span
+{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+/* social media icons */
+.social-media {
+  font-size: 30px;
+  text-align: center;
+}
+/* positioning the parts */
+.login
+{
+  position: relative;
+  top:600px ;
+  transition: 0.5s;
+}
+.register
+{
+  position: relative;
+  top:-450px ;
+  transition: 0.5s;
+}
+/* back-ground image part */
+.hidden
+{
+display: none;
+}
+/* marquee part */
+.news
+{
+  font-size: 30px;
+  display: none;
+}
+/* previous css ends */
+
+/* footer decoration */
+#upper-footer
+{
+  background-color: black;
+  color: white;
+  padding-top: 50px;
+}
+#lower-footer
+{
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* resolution changes */
+@media screen and (max-width:1700px)
+{
+  .head-one
+  {
+    display: none;
+  }
+  .head-two
+  {
+    display: none;
+  }
+
+  .head-three
+  {
+    display: block;
+  }
+#main-part-4
+{
+  margin-top: 5%;
+}
+
+}
+@media screen and (max-width:1300px) {
+  .card
+{
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.formBox
+{
+  margin-left:5%;
+}
+.head-one
+{
+  display: none;
+}
+.head-three
+  {
+    display: none;
+  }
+  #main-part-3
+  {
+    padding-bottom: 30%;
+  }
+ 
+}
+@media screen and (max-width:970px)
+{
+  .card
+{
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+#main-part-4
+{
+  margin-top: 20%;
+}
+.head-one
+{
+  display: none;
+}
+.formBox
+{
+  margin-left: 0px;
+}
+
+}
+@media screen and (max-width:795px)
+{
+  .card
+{
+  margin-left: 35%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.head-one
+{
+  display: none;
+}
+.formBox
+{
+  margin-left: 5vw;
+}
+}
+@media screen and (max-width:500px)
+{
+  .formBox
+  {
+    margin-left: 0px;
+  }
+  .card
+  {
+    margin-left: 55px;
+  }
+}
+/* All hover effects */
+#tabs-upper-navbar
+{
+  transition: 0.5s;
+}
+#tabs-upper-navbar:hover
+{
+  color: rgb(0, 255, 0);
+  font-size: 20px;
+  transition: 0.5s;
+}
+/* social media on form */
+.social-media i
+{
+  color:black;
+  transition: 0.5s;
+}
+.social-media i:hover
+{
+  color:black;
+  font-size: 25px;
+  transition: 0.5s;
+}
+/* sign in button on top */
+#btn-sign-in button
+{
+  background-color: rgb(220, 20, 20);
+  color: white;
+  transition: 0.5s;
+}
+#btn-sign-in button:hover
+{
+  background-color: rgb(0, 255, 0);
+  transition: 0.5s;
+  font-size: 18px;
+}
+#brand-name
+{
+  animation: brandy 10s infinite;
+  transition: 0.5s;
+
+}
+@keyframes brandy {
+  0%{
+    color:rgb(0, 255, 21);
+  }
+  20%{
+    color:rgb(230, 255, 179);
+  }
+  40%{
+    color:yellow;
+  }
+  60%{
+    color:rgb(255, 255, 255);
+  }
+  80%{
+    color:rgb(255, 172, 172);
+  }
+  100%{
+    color:rgb(255, 0, 13);
+  }
+  
+}
+#brand-name-head
+{
+  animation: candy 6s infinite;
+  transition: 0.5s;
+   border: 0px solid rgb(255, 255, 255); 
+  padding: 20px;
+  border-radius: 10px;
+  /* background-color: rgba(245, 245, 245, 0.604); */
+  /* color: rgb(0, 0, 0); */
+  font-size: 25px;
+  /* box-shadow: 5px 5px 25px 0px rgba(255, 208, 0, 0.432); */
+  /* margin-top: 50px; */
+
+}
+@keyframes candy {
+  0%{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.828);
+    border:0px solid rgb(0, 0, 0);
+    box-shadow:5px 5px 25px 10px rgba(89, 74, 74, 0.34);
+  }
+  50%{
+    color:rgb(255, 255, 255);
+    background-color: rgba(63, 54, 54, 0.468);
+    border:0px solid rgb(255, 255, 255);
+    box-shadow:5px 5px 25px 10px rgba(0, 0, 0, 0.478);
+  }
+  100%{
+    color:rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.828);
+    border:0px solid rgb(0, 0, 0);
+    box-shadow:5px 5px 25px 10px rgba(89, 74, 74, 0.34);
+  }
+  
+}
+/* styling the card animation */
+#card-style
+{
+
+  /* box-shadow: -50px 50px 10px 0px rgb(0, 0, 0); */
+  /* box-shadow: 50px -50px 10px 0px rgb(0, 0, 0); */
+
+  animation: mandy 8s infinite;
+  transition: 0.5s;
+}
+@keyframes mandy {
+  0%{
+    box-shadow: 150px 150px 5px 0px rgba(92, 71, 71, 0.456);
+  }
+  25%{
+    box-shadow: -150px 150px 5px 0px rgba(255, 255, 255, 0.518);
+  }
+  50%{
+    box-shadow: -150px 50px 5px 0px rgba(251, 0, 0, 0.504);
+  }
+  75%{
+    box-shadow: 150px 50px 5px 0px rgba(104, 104, 126, 0.442);
+  }
+  100%{
+    box-shadow: 150px 150px 5px 0px rgba(168, 221, 54, 0.476);
+  }
+  
+}
+/* laptop and graph float */
+.graph i
+{
+  font-size: 50px;
+  animation: float 30s infinite;
+  position: relative;
+    bottom: 550px;
+    right: -850px;
+}
+.laptop i
+{
+  font-size: 50px;
+  animation: float1 30s infinite;
+}
+.dress i
+{
+  font-size: 50px;
+  color: white;
+  animation: float2 30s infinite;
+
+}
+@keyframes float {
+  0%{
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    
+   
+  }
+  5%{
+    position: relative;
+      bottom: 100px;
+      left: 0px;
+    
+   
+  }
+  10%{
+    position: relative;
+    bottom: 205px;
+    left: -105px;
+   
+   
+  }
+  15%{
+    position: relative;
+    bottom: 200px;
+    left: -400px;
+    
+   
+  }
+   20%{
+    position: relative;
+    bottom: 150px;
+    left: -600px;
+  }
+  25%{
+    position: relative;
+    bottom: 400px;
+    left: -650px;
+    
+   
+  }
+  30%{
+    position: relative;
+    bottom: 400px;
+    left: -450px;
+  }
+  35%{
+    position: relative;
+    bottom: 600px;
+    left: -650px;
+    
+   
+  }
+  40%{
+    position: relative;
+    bottom: 550px;
+    left: -550px;
+  }
+  45%{
+    position: relative;
+    bottom: 550px;
+    left: -450px;
+    
+   
+  }
+  50%{
+    position: relative;
+    bottom: 540px;
+    left: -550px;
+  }
+  55%{
+    position: relative;
+    bottom: 100px;
+    right: -660px;
+    
+   
+  }
+  60%{
+    position: relative;
+    bottom: 300px;
+    right: -750px;
+  }
+  65%{
+    position: relative;
+    bottom: 450px;
+    right: -850px;
+    
+   
+  }
+  70%{
+    position: relative;
+    bottom: 400px;
+    right: -150px;
+  }
+  75%{
+    position: relative;
+    bottom: 300px;
+    right: -900px;
+    
+   
+  }
+  80%{
+    position: relative;
+    bottom: 200px;
+    right: -600px;
+  }
+  85%{
+    position: relative;
+    bottom: 50px;
+    right: -400px;
+    
+   
+  }
+  90%{
+    position: relative;
+    bottom: 100px;
+    left: -840px;
+  }
+  95%{
+    position: relative;
+    bottom: 500px;
+    left: -400px;
+    
+   
+  }
+  100%{
+    position: relative;
+      bottom: 100px;
+      right: -350px;
+  } 
+  
+}
+@keyframes float1 {
+  100%{
+    position: relative;
+    bottom: 300px;
+    left: 50px;
+    
+   
+  }
+  95%{
+    position: relative;
+      bottom: 100px;
+      left: 0px;
+    
+   
+  }
+  80%{
+    position: relative;
+    bottom: 205px;
+    left: -105px;
+   
+   
+  }
+  85%{
+    position: relative;
+    bottom: 200px;
+    left: -400px;
+    
+   
+  }
+   70%{
+    position: relative;
+    bottom: 150px;
+    left: -600px;
+  }
+  75%{
+    position: relative;
+    bottom: 400px;
+    left: -650px;
+    
+   
+  }
+  60%{
+    position: relative;
+    bottom: 400px;
+    left: -450px;
+  }
+  65%{
+    position: relative;
+    bottom: 600px;
+    left: -650px;
+    
+   
+  }
+  50%{
+    position: relative;
+    bottom: 550px;
+    left: -550px;
+  }
+  55%{
+    position: relative;
+    bottom: 550px;
+    left: -450px;
+    
+   
+  }
+  40%{
+    position: relative;
+    bottom: 540px;
+    left: -550px;
+  }
+  45%{
+    position: relative;
+    bottom: 100px;
+    left: -660px;
+    
+   
+  }
+  30%{
+    position: relative;
+    bottom: 300px;
+    left: -750px;
+  }
+  35%{
+    position: relative;
+    bottom: 450px;
+    left: -850px;
+    
+   
+  }
+  20%{
+    position: relative;
+    bottom: 400px;
+    left: -1050px;
+  }
+  25%{
+    position: relative;
+    bottom: 300px;
+    left: -900px;
+    
+   
+  }
+  10%{
+    position: relative;
+    bottom: 200px;
+    left: -600px;
+  }
+  15%{
+    position: relative;
+    bottom: 50px;
+    left: -400px;
+    
+   
+  }
+  0%{
+    position: relative;
+    bottom: 100px;
+    left: -840px;
+  }
+  5%{
+    position: relative;
+    bottom: 500px;
+    left: -400px;
+    
+   
+  }
+  90%{
+    position: relative;
+      bottom: 100px;
+      left: 0px;
+  } 
+  
+  
+}
+@keyframes float2 {
+  0%{
+    position: relative;
+    bottom: 300px;
+    right: -1000px;
+    
+   
+  }
+  5%{
+    position: relative;
+      bottom: 100px;
+      left: -1500px;
+    
+   
+  }
+  10%{
+    position: relative;
+    bottom: 205px;
+    right: -5px;
+   
+   
+  }
+  15%{
+    position: relative;
+    bottom: 200px;
+    left: -800px;
+    
+   
+  }
+   20%{
+    position: relative;
+    bottom: 150px;
+    left: -600px;
+  }
+  25%{
+    position: relative;
+    bottom: 400px;
+    right: -50px;
+    
+   
+  }
+  30%{
+    position: relative;
+    bottom: 400px;
+    left: -950px;
+  }
+  35%{
+    position: relative;
+    bottom: 600px;
+    right: -1050px;
+    
+   
+  }
+  40%{
+    position: relative;
+    bottom: 550px;
+    left: -50px;
+  }
+  45%{
+    position: relative;
+    bottom: 550px;
+    right: -950px;
+    
+   
+  }
+  50%{
+    position: relative;
+    bottom: 540px;
+    left: -550px;
+  }
+  55%{
+    position: relative;
+    bottom: 100px;
+    right: -1060px;
+    
+   
+  }
+  60%{
+    position: relative;
+    bottom: 300px;
+    left: -50px;
+  }
+  65%{
+    position: relative;
+    bottom: 450px;
+    left: -850px;
+    
+   
+  }
+  70%{
+    position: relative;
+    bottom: 400px;
+    right: -1050px;
+  }
+  75%{
+    position: relative;
+    bottom: 300px;
+    left: -1500px;
+    
+   
+  }
+  80%{
+    position: relative;
+    bottom: 200px;
+    right: -60px;
+  }
+  85%{
+    position: relative;
+    bottom: 50px;
+    right: -400px;
+    
+   
+  }
+  90%{
+    position: relative;
+    bottom: 100px;
+    left: -840px;
+  }
+  95%{
+    position: relative;
+    bottom: 500px;
+    right: -400px;
+    
+   
+  }
+  100%{
+    position: relative;
+      bottom: 1000px;
+      left: 0px;
+  } 
+  
+}
+
+
+
+
+
+
+
+

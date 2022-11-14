@@ -1,0 +1,576 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main {
+    background-color: rgb(255, 193, 98);
+}
+
+/* Upper navigation bar */
+#brand-name {
+    animation: brandy 10s infinite;
+    transition: 0.5s;
+
+}
+
+@keyframes brandy {
+    0% {
+        color: rgb(0, 255, 21);
+    }
+
+    20% {
+        color: rgb(230, 255, 179);
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    60% {
+        color: rgb(255, 255, 255);
+    }
+
+    80% {
+        color: rgb(255, 172, 172);
+    }
+
+    100% {
+        color: rgb(255, 0, 13);
+    }
+
+}
+
+/* Upper navigation bar end */
+/* Lower navigation */
+#btn-sign-in {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#btn-sign-in button {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+    border: 0px solid;
+}
+
+.navigation-box-2 {
+    background-color: rgb(255, 255, 255);
+}
+
+/* lower navigation bar ends here */
+/* main part starts here */
+
+
+#upper-footer {
+    background-color: black;
+    color: white;
+}
+
+#lower-footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-headline h5 {
+    margin-left: 45px;
+}
+
+.credit-images span {
+    width: 35px;
+    margin-left: 25px;
+}
+
+.second-footer-headline {
+    text-align: right;
+    margin-right: 90px;
+}
+
+.connect-images {
+    text-align: right;
+}
+
+.connect-images span {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+/* footer part ends here */
+/* All hover effects */
+#tabs-upper-navbar {
+    transition: 0.5s;
+}
+
+#tabs-upper-navbar:hover {
+    color: rgb(0, 255, 0);
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+/* social media on form */
+.social-media i {
+    color: black;
+    transition: 0.5s;
+}
+
+.social-media i:hover {
+    color: black;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+/* sign in button on top */
+#btn-sign-in button {
+    background-color: rgb(220, 20, 20);
+    color: white;
+    transition: 0.5s;
+}
+
+#btn-sign-in button:hover {
+    background-color: rgb(0, 255, 0);
+    transition: 0.5s;
+    font-size: 18px;
+}
+
+/* dashboard content */
+#pathline {
+    background-color: rgb(33, 37, 41);
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* new css */
+.bread {
+    display: flex;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.bread a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+
+}
+
+.bread li {
+    margin-left: 20px;
+}
+
+#pathline h2 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* navigation bar */
+#sideNavigation {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.sideNavigation {
+    width: 100%;
+    background-color: white;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    height: 1700px;
+}
+
+.iconAndName {
+    display: flex;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.iconAndName h5 {
+    width: 85%;
+    padding-left: 10px;
+}
+
+.iconAndName span {
+    width: 15%;
+
+}
+
+.iconAndName span i {
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#list-group {
+    margin-bottom: 30px;
+}
+
+.list-group li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.list-group li a:hover {
+    font-weight: 600;
+    color: rgb(6, 239, 6);
+    transition: 0.2s;
+}
+
+#btn-account-design {
+    width: 49%;
+    border: 0px solid;
+    background-color: coral;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+#btn-account-design:hover {
+    background-color: rgb(10, 244, 10);
+    transition: 0.2s;
+}
+
+/* data block */
+#dataBlock {
+    margin-top: 50px;
+}
+
+#item-status {
+    background-color: rgba(255, 255, 255, 0.838);
+    height: 39px;
+    border-radius: 10px;
+}
+
+#item-status p {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#status-block {
+    margin-bottom: 30px;
+}
+
+#full-card {
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* last-icons */
+#last-icons {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.card {
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.card img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.fullNavigation {
+    height: 1700px;
+    overflow: hidden;
+    width: 80%;
+}
+
+@media screen and (max-width:767px) {
+    .fullNavigation {
+        height: 65px;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    #sideNavigation {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #dataBlock {
+        margin-top: 0px;
+    }
+
+    .iconAndName h5 {
+        width: 90%;
+    }
+
+    .iconAndName span {
+        width: 10%;
+    }
+
+    .iconAndName span i {
+        font-size: 25px;
+    }
+
+
+}
+@media screen and (max-width:500px) {
+    #item-status p
+    {
+        font-size: 15px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* imported css */
+.productName {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.productColor {
+    font-weight: 600;
+}
+
+.productSeller {
+    font-weight: 600;
+}
+
+/* product quality filter */
+#quantityDropdowns {
+    margin-top: 50px;
+}
+
+#productSize {
+    height: 100%;
+}
+
+#productQuantity {
+    margin-top: 10px;
+}
+
+#productQuantity .form-select {
+    height: 100%;
+    font-size: 15px;
+    outline: none;
+    border: 0px solid black;
+    background-color: rgba(255, 166, 0, 0.718);
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+.productPrice {
+    text-align: right;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.discountPrice {
+    text-align: right;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.391);
+    font-size: 15px;
+}
+
+.deliveryStatement {
+    text-align: right;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.408);
+    font-size: 15px;
+}
+
+/* cart buttons */
+.btnRemove {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(255, 166, 0, 0.641);
+    border-radius: 30px;
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+.btnRemove:hover {
+    transition: 0.5s;
+    background-color: red;
+}
+
+.btnRemove i {
+    color: white;
+}
+
+.btn-cart {
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(255, 166, 0, 0.683);
+    border-radius: 30px;
+    border: 0px solid;
+    transition: 0.2s;
+}
+
+.btn-cart:hover {
+    transition: 0.5s;
+    background-color: rgba(224, 123, 15, 0.692);
+}
+
+.btn-cart i {
+    color: white;
+}
+
+#middle-part {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#full-part {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* resolution */
+@media screen and (max-width:1000px) {
+
+    .productCount {
+        font-size: 15px;
+    }
+
+    .priceCount {
+        font-size: 15px;
+    }
+
+    .productName {
+        font-size: 15px;
+    }
+
+    .productColor {
+        font-size: 12px;
+    }
+
+    .productSeller {
+        font-size: 12px;
+    }
+
+    .btnRemove {
+        width: 150px;
+        height: 35px;
+    }
+
+    .btn-cart {
+        width: 150px;
+        margin-left: 20px;
+        height: 35px;
+    }
+
+    #middle-part {
+        margin-bottom: 20px;
+    }
+
+    .summaryBox {
+        margin-top: 50px;
+    }
+
+    .summaryBox div div i {
+        font-size: 35px;
+        margin-top: 10px;
+    }
+
+    .applypara {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .applybtn {
+        margin-top: 10px;
+        height: 30px;
+        width: 80px;
+
+    }
+
+
+}
+
+@media screen and (max-width:700px) {
+    .productPrice {
+        font-size: 15px
+    }
+
+    .discountPrice {
+        font-size: 15px
+    }
+
+    .deliveryStatement {
+        font-size: 15px
+    }
+
+    .btnRemove {
+        width: 150px;
+        height: 35px;
+        font-size: 18px;
+    }
+
+    .btn-cart {
+        width: 150px;
+        height: 35px;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .applytag {
+        margin-top: 5px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .btnRemove {
+        width: 100px;
+        height: 35px;
+    }
+
+    .btn-cart {
+        width: 100px;
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    #full-card {
+        padding-bottom: 40px;
+    }
+
+
+
+}
+
+/* imported end */
